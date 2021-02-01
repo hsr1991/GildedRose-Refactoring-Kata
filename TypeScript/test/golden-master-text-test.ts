@@ -1,4 +1,6 @@
-import { Item, GildedRose } from '../app/gilded-rose';
+// import { Item, GildedRose } from '../app/gilded-rose';
+const Item = require('../app/gilded-rose').Item;
+const GildedRose = require('../app/gilded-rose').GildedRose;
 
 const items = [
     new Item("+5 Dexterity Vest", 10, 20), //
